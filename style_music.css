@@ -1,0 +1,97 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  background-color: white;
+  width: 100%;
+  align: 0 auto;
+  position: relative;
+}
+
+.return p{
+  transform: rotate(-90deg);
+  position: fixed;
+  top: 160px;
+  right: -60px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Prata', serif;
+  margin-left: 60px;
+  color: white;
+  font-size: 36px;
+}
+
+.project {
+height: 100vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+position: relative;
+margin: 0 auto;
+}
+
+.name {
+  font-size: 120px;
+  font-family: 'Prata', serif;
+  color: black;
+  margin-left: 462px;
+}
+
+.title {
+  width: 300px;
+  position: absolute;
+  left: 200px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 300;
+  margin-left: 462px;
+  margin-top: 24px;
+}
+
+span{
+  position: absolute;
+}
+
+.work {
+  width: 0 auto;
+  padding: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.iphone {
+  height: 80vh;
+  justify-content: space-around;
+}
+
+.work p{
+  font-size: 24px;
+  justify-content: space-around;
+  line-height: 36px;
+}
+
+.speech {
+  margin-left: 48px;
+}
+
+.inciso {
+  font-size: 30px;
+  font-family: 'Prata', serif;
+  color: #AF283A;
+  position: relative;
+}
+
+.pantallas {
+  text-align: center;
+}
+
+.screens {
+  width: 95vw;
+  margin-bottom: 60px;
+}

@@ -1,0 +1,257 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+  background-color: #AF283A;
+  width: 100%;
+  align: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #FF3651;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Prata', serif;
+  margin-left: 60px;
+  color: white;
+  font-size: 36px;
+}
+
+ul + h2 {
+  margin-top: 48px;
+}
+
+.home {
+height: 100vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.name {
+  font-size: 120px;
+  font-family: 'Prata', serif;
+  color: white;
+  margin-left: 180px;
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #FF3651;
+  font-weight: 300;
+  margin-left: 180px;
+  margin-top: 24px;
+}
+
+.clients ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin: 120px auto;
+}
+
+.curriculum {
+margin: 120px auto;
+padding-left: 120px;
+}
+
+.work p {
+  margin-top: 6px;
+}
+
+.work li {
+  list-style-type: none;
+  margin-left: 60px;
+  color: white;
+  margin-top: 24px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+.study p {
+  margin-top: 6px;
+}
+
+.study li {
+  list-style-type: none;
+  margin-left: 60px;
+  color: white;
+  margin-top: 24px;
+}
+
+.about {
+  margin: 120px 288px;
+  line-height: 48px;
+}
+
+.contact {
+  width: 60%;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.contact p{
+  text-align: center;
+}
+
+.contact ul{
+text-align: center;
+margin-top: 24px;
+}
+
+.contact li{
+display: inline;
+}
+
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects div {
+  width: 25%;
+  height: 250px;
+}
+
+.projects div a {
+  display: block;
+  height: 100%;
+}
+
+.projects h4{
+  font-family: 'Prata', serif;
+  color: white;
+  margin-top: 108px;
+  font-size: 38px;
+  text-align: center;
+}
+
+.projects > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.projects > div::before {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition-duration: 1s;
+  font-family: 'Prata', serif;
+  color: white;
+  padding: 110px;
+  font-size: 38px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.projects > div:hover::before {
+  opacity: 0.8;
+}
+
+.alsa {
+  background-image: url(images/cover/alsa.jpg);
+}
+
+.alsa::before {
+  content: "ALSA";
+  background-color: blue;
+}
+
+.myria {
+  background-image: url(images/cover/ria.jpg);
+}
+
+.myria::before {
+  content: "MyRia";
+  background-color: orange;
+}
+
+.apparkar {
+  background-image: url(images/cover/apparkar.jpg);
+}
+
+.apparkar::before {
+  content: "Apparkar";
+  background-color: darkgreen;
+}
+
+.music {
+  background-image: url(images/cover/muuusic.jpg);
+}
+
+.music::before {
+  content: "Muuusic";
+  background-color: lightblue;
+}
+
+.mayeye {
+  background-image: url(images/cover/mayeye.jpg);
+}
+
+.mayeye::before {
+  content: "May Eye";
+  background-color: darkblue;
+}
+
+.pixar {
+  background-image: url(images/cover/pixar.jpg);
+}
+
+.pixar::before {
+  content: "Pixar";
+  background-color: gold;
+}
+
+.hbo {
+  background-image: url(images/cover/hbo.jpg);
+}
+
+.hbo::before {
+  content: "HBO";
+  background-color: red;
+}
+
+.lettering {
+  background-image: url(images/cover/lettering.jpg);
+}
+
+.lettering::before {
+  content: "Lettering";
+  background-color: black;
+}
+
+.button {
+  width: 240px;
+  height: 60px;
+  background-color: black;
+  text-align: center;
+  border-radius: 50px;
+  margin: 24px auto;
+}
+
+.button p {
+  padding: 24px;
+}
+
+.contact a:hover {
+  color: white;}
